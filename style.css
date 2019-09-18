@@ -12,6 +12,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap');
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -61,7 +62,7 @@ h4,
 h5,
 h6 {
    
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family: 'Lusitana', serif;
    
 }
 
@@ -890,6 +891,7 @@ padding-left:10px;
 .hero
 {
 min-height: 500px;
+padding:15px 5px;
 }
 .hero h2
 {
@@ -958,8 +960,13 @@ float:right;
 {
     text-align: center;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom:20px;
+}
+.test-bold
+{
+    font-size:19px;
+    font-weight: 700;
 }
 .testi-img img
 {
@@ -976,7 +983,6 @@ float:right;
 {
   color: #262626;
     font-size: 17px;
-    font-weight: 300;
        background: url(https://allwinjoseph.github.io/sonus.io/img/testi_quote.png) no-repeat;
     padding-left: 45px;
     margin-left: -50px;
@@ -990,7 +996,7 @@ float:right;
 .ser-head h2
 {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     padding:20px 0px;
 }
@@ -1009,7 +1015,7 @@ border-top:5px solid #7d9948;
 }
 .ser-col h3
 {
-font-size: 17px;
+font-size: 20px;
 text-align:center;
 font-weight:bold;
 color:#003d66;
@@ -1062,6 +1068,7 @@ color:#003d66;
   
 background-position:center;
 min-height: 250px;
+margin-top: -70px;
 }
 .expert-head h3
 {
@@ -1070,14 +1077,16 @@ min-height: 250px;
    padding:15px 0px;
     font-weight:600;
     margin-top: -10px;
+    font-size: 24px;
 }
-.expert-ph span
+.expert-ph h3
 {
     float:right;
     color:#fff;
     font-size: 22px;
     margin-top: -60px;
     padding-right: 20px;
+    font-weight:bold;
 }
 .expert-ph
 {
@@ -1109,7 +1118,7 @@ min-height: 250px;
 {
     text-align:center;
     color:#595959;
-    font-size: 20px;
+    font-size: 24px;
     font-weight:bold;
     margin-top: -80px;
 }
@@ -1156,7 +1165,7 @@ background: linear-gradient(to right, rgba(15,59,87,1) 0%, rgba(3,35,56,1) 100%)
 {
     text-align:center;
     font-weight: bold;
-    font-size: 20px;
+    font-size:24px;
     color: #595959;
 }
 .map-border
@@ -1237,4 +1246,99 @@ background: linear-gradient(to right, rgba(15,59,87,1) 0%, rgba(3,35,56,1) 100%)
 .ul-cus li {
     list-style-image: url(https://allwinjoseph.github.io/sonus.io/img/check-box.png);
 }
+.form-cus
+{
+    padding:15px;
+    background: #e4e7ea;
+    margin-top: 10px;
+    border-radius:5px;
+}
+.form-cus h3
+{
+    font-size: 17px;
+    text-align:left;
+    color:#000000;
+   font-weight: 600;
+   margin-bottom: 15px;
+   text-align:center;
+
+}
+input[type=text], input[type=email], input[type=number], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:#0d0d0d;
+  margin-bottom: 16px;
+  
+}
+
+
+
+
+label
+{
+    float:left;
+    color: #404040;
+    font-weight: normal;
+    font-size:14px;
+}
+textarea
+{
+resize: none;
+height:75px!important;
+}
+.button3 {
+background: linear-gradient(to right, rgba(122,151,73,1) 0%, rgba(3,63,101,1) 68%, rgba(3,63,101,1) 100%);
+  border: none;
+  color: white;
+  padding: 11px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button4 {width: 90%;}
+ .btsec1 a
+ {
+    text-decoration: none;
+ }
+
+
+@media only screen and (max-width: 800px) {
+ .about-head 
+ {
+padding-top:8px;
+
+  }
+  .about-text
+  {
+    padding-top:10px;
+  }
+  .testi-img 
+  {
+display: none;
+  }
+  .expert-ph img
+  {
+    display: none;
+  }
+  .expert-ph h3
+  {
+    text-align: center;
+    float:none;
+    margin-top: 1px;
+  }
+  .hours p
+  {
+    text-align: center;
+  }
+ .button2 {width:100%!important;}
+
+}
+
 

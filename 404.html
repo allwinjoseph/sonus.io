@@ -36,7 +36,8 @@
     <body id="page-top" class="index">
 
     <!-- Navigation -->
-<div class="top-head">
+
+<div class="top-head" id="header">
 <div class="container">
 <div class="row">
 <div class="col-md-6 col-xs-12logo">
@@ -65,7 +66,27 @@
              </ul>
 
          </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-5">
+          <div class="form-cus">
+         <h3>Schedule your consultation today</h3>
+            <form action="https://formspree.io/allwin.maxworth@gmail.com" method="post">
+    <label for="fname" class="left">Name *</label>
+    <input type="text" id="fname" name="name" placeholder="Your name.." required>
+
+    <label for="lname">Email *</label>
+    <input type="email" id="lname" name="email" placeholder="Your email.." required>
+
+    <label for="lname">Phone Number *</label>
+    <input type="number" id="lname" name="number" placeholder="Your phone number.." required>
+
+    <label for="subject">Comments *</label>
+    <textarea  id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
+
+    <input type="submit" value="Request an appointment now!" class="button3 button4">
+  </form>
+
+          </div>
+        </div>
              
             </div>
         </div>
@@ -102,8 +123,8 @@
             </div>
 
             <div class="row">
-              <div class="col-md-6 about-img">
-                  <img src="img/about-img.jpg" alt="about image" class="img-fluid"> 
+              <div class="col-md-6  about-img">
+                  <img src="img/about-img.jpg" alt="about image" class="img-responsive"> 
               </div>
               <div class="col-md-6 about-text">
                   <p>
@@ -129,7 +150,7 @@ Where our goal is to help you with a variety of hearing needs. For over 20 years
 </div>
 <div class="col-md-8 testi-p">
 	<p>I really appreciate the help that they provided me during a very short of time.<br>Thank you so much for all of you.</p>
-	<span class="testi-bold">- Mike Allnabul</span>
+	<h4 class="testi-bold">- Mike Allnabul</h4>
 </div>
 
        </div>
@@ -181,12 +202,12 @@ Where our goal is to help you with a variety of hearing needs. For over 20 years
 <div class="row">
 <div class="col-md-6 expert-ph">
 <img src="img/icon1.png" height="60" alt="phone icon" class="img-fluid">	
-<span>1-888-457-6687</span>
+<h3>1-888-457-6687</h3>
 </div>
 <div class="col-md-6 hours">
-	<span class="ex-h">Hours of Operation</span><br>
-	<span class="ex-w">Monday - Friday : 8:30am - 5:00pm. </span><br>
-	<span class="ex-w">Saturday and Sunday : Closed</span>
+	<p class="ex-h">Hours of Operation<br>
+	<span class="ex-w">Monday - Friday : 8:30am - 5:00pm.</span> <br>
+	<span class="ex-w">Saturday and Sunday : Closed</span></p>
 </div>
 </div>
 
@@ -203,11 +224,11 @@ Where our goal is to help you with a variety of hearing needs. For over 20 years
 </div>	
 
 <div class="row">
-<div class="col-md-6 btsec">
+<div class="col-md-6 col-xs-12 btsec">
 	<button class="button button2 btn1">I would like to have a hearing test</button>
 </div>
-<div class="col-md-6">
-	<button class="button button2 btn2">Schedule an Appointment Now</button>
+<div class="col-md-6 col-xs-12  btsec1">
+	<a href="#header" class="button button2 btn2">Schedule an Appointment Now</a>
 </div>
 </div>
 
@@ -221,7 +242,7 @@ Where our goal is to help you with a variety of hearing needs. For over 20 years
 <h3>Our Location</h3>
 </div>
 <div class="map-border">
-<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d65342839.44177594!2d-85.30811200534298!3d1.626694040643578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d13.0426895!2d80.17911699999999!4m5!1s0x89c9daf29e95ddb1%3A0xc7184af9fdfe211b!2ssonus%20hearing%20care%20professionals!3m2!1d39.427551199999996!2d-77.4023151!5e0!3m2!1sen!2sin!4v1568724079346!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d98618.9926406358!2d-77.47235571946763!3d39.42766279971426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x89c9daf29e95ddb1%3A0xc7184af9fdfe211b!2sSonus%20Hearing%20Care%20Professionals%2C%20Delaware%20Road%2C%20Frederick%2C%20MD%2C%20USA!3m2!1d39.427551199999996!2d-77.4023151!4m5!1s0x89c9daf29e95ddb1%3A0xc7184af9fdfe211b!2sSonus%20Hearing%20Care%20Professionals%2C%20310%20Delaware%20Rd%2C%20Frederick%2C%20MD%2021701%2C%20USA!3m2!1d39.427551199999996!2d-77.4023151!5e0!3m2!1sen!2sin!4v1568809536689!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 </div>
 
@@ -230,6 +251,7 @@ Where our goal is to help you with a variety of hearing needs. For over 20 years
 </div>
 
 </section>
+
     <!--footer section starts-->
 <section id="footer">
 <div class="container">
