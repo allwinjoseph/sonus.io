@@ -1066,9 +1066,10 @@ color:#003d66;
    background: url(https://allwinjoseph.github.io/sonus.io/img/export-bg.jpg) no-repeat; 
 
   
-background-position:center;
-min-height: 250px;
+background-position:center center;
+height:auto;
 margin-top: -70px;
+
 }
 .expert-head h3
 {
@@ -1084,7 +1085,7 @@ margin-top: -70px;
     float:right;
     color:#fff;
     font-size: 22px;
-    margin-top: -60px;
+    margin-top: -50px;
     padding-right: 20px;
     font-weight:bold;
 }
@@ -1255,7 +1256,7 @@ background: linear-gradient(to right, rgba(15,59,87,1) 0%, rgba(3,35,56,1) 100%)
 }
 .form-cus h3
 {
-    font-size: 17px;
+    font-size: 21px;
     text-align:left;
     color:#000000;
    font-weight: 600;
@@ -1303,7 +1304,7 @@ background: linear-gradient(to right, rgba(122,151,73,1) 0%, rgba(3,63,101,1) 68
   border-radius: 4px;
 }
 .button4 {width: 90%;}
- .btsec1 a
+ .btsec1
  {
     text-decoration: none;
  }
