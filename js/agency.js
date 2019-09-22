@@ -36,3 +36,6 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 //form submit
+function formsubmit() {
+  document.getElementById("myForm").submit();
+}
