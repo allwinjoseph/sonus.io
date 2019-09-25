@@ -1,3 +1,13 @@
----
-layout: feed
----
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome | Sonus Hearing Care Professionals in San Diego.</title>
+    <description>Hearing healthcare professionals offering the best hearing aids, hearing tests, hearing aid repair and audiology service in San Diego. Call today..</description>
+    <link>https://allwinjoseph.github.io/sonus.io/</link>
+    <atom:link href="https://allwinjoseph.github.io/sonus.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 25 Sep 2019 18:50:35 +0530</pubDate>
+    <lastBuildDate>Wed, 25 Sep 2019 18:50:35 +0530</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+  </channel>
+</rss>
